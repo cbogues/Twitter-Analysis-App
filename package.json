@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/cbogues/Twitter-Analysis-App#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "express": "^4.15.2",
     "lokijs": "^1.4.3",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "twitter": "^1.7.0"
   }
 }
