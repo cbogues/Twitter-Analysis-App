@@ -15,7 +15,7 @@ exports.top = function(req, res){
 
 exports.results = function(req, res){
 	var query = req.query.q;
-	if(query) {
+	if(query){
 		db.getCollection('searches').insert({term: query});
 		db.saveDatabase();
 

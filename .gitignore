@@ -1,7 +1,2 @@
 # dotenv environment variables file
 .env
-
-# Logs
-logs
-*.log
-npm-debug.log*
